@@ -29,8 +29,8 @@ Network/BT card:	Fenvi BCM94360NG [https://abre.ai/b3eh] - Natively supported
 
 OpenCore version	OpenCore-0.6.5-RELEASE
 
-Screen and audio mirroring works for Samsungs TV
-
+AirPlay works natively - Tested with Samsung 4K TV
+Handoff works natively - Tested with Ipad Mini 5
 
 Currently known problems and solutions:
 
