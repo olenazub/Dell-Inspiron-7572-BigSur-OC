@@ -1,37 +1,23 @@
-# 适用于Dell Inspiron 7572笔记本安装与运行macOS Big Sur的OpenCore EFI配置
-# 注意：该EFI文件只适用于Big Sur版本。
-# 本EFI配置思路基于[@ic005k](https://github.com/ic005k)的[Dell Inspiron 7472 OC配置文件](https://github.com/ic005k/DELL7472)
-* 如需运行Catalina版本，请使用 [@Lyn](https://github.com/lyngogogog)的 [EFI](https://github.com/lyngogogog/Dell-7472-7572-Hackintosh-EFI)配置文件。
-* 如若安装更低版本的macOS，可以使用[@黑果小兵](https://github.com/daliansky)的[CLOVER配置文件](https://github.com/daliansky/Dell-Inspiron-7560-Hackintosh)
-# >>>[点击此处下载EFI配置文件](https://github.com/iXeor/Dell-Inspiron-7572-BigSur-OC/releases/download/r1.0/EFI.zip)<<<
-## 电脑配置
 
-| 规格     | 详细信息                                                     |
-| -------- | ------------------------------------------------------------ |
-| 电脑型号 | 戴尔 Inspiron 7572 笔记本电脑                                |
-| BIOS版本 | Inspiron_7472_7572_1.5.3                               |
-| 操作系统 | macOS Big Sur 11.0.1 (20B50)/Windows 10 专业工作站版 20H2/Ubuntu 20.10       |
-| 处理器   | Intel Core i5-8250U @ 1.80GHz 四核八线程                          |
-| 内存     | 16 GB ( 科赋 DDR4 2400MHz )                                |
-| 硬盘1     | 三星 970 EVO (250 GB / 固态硬盘 )                          |
-| 硬盘2     | HGST HTS541010B7E610 (1 TB / 机械硬盘 )                          |
-| 显卡1     | 英特尔 HD Graphics 620 （保留2 GB显存）             |
-| 显卡2     | NVIDIA MX 150 4G（未使用）              |
-| 显示器   | BOE(京东方) NV156FHM-H61 FHD 1920x1080 (15.6 英寸)                       |
-| 声卡     | ALC256 (layout-id:2/56)                                      |
-| 网卡     | Intel Wi-Fi 6 AX200 160MHz                      |
-| OpenCore版本     | OpenCore-0.6.4-RELEASE                      |
+# OpenCore EFI configuration for Dell Inspiron 7572 notebook
+# Note: This EFI file is applicable to run Catalina and Big Sur version.
+This EFI configuration is based on [@iXeor - https://github.com/iXeor/Dell-Inspiron-7572-BigSur-OC]
 
-## 特性
+>>> Click here to download the EFI configuration file <<<
 
-* 集成[OpenIntelWireless](https://github.com/OpenIntelWireless)的[itlwm](https://github.com/OpenIntelWireless/itlwm)、[IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware)和[AirportItlwm](https://github.com/OpenIntelWireless/itlwm/tree/master/AirportItlwm)，可以使用一部分Intel品牌的无线网卡
-* 支持将macOS Big Sur安装到机械硬盘
+Computer Model: Notebook Dell Inspiron 7572
+BIOS: 1.5.3
+OSs: MacOS Big Sur 11.1 / Windows 10 Professional
+Processor: Intel Core i5-8250U @1.80GHz quad-core eight threads
+RAM: 16 GB DDR4 2400MHz - XPG
+Hard Disk 1:	120 GB NVME SSD - Patriot
+Hard Disk 2:	360 GB SSD - Kingspeac
+Graphics 1:	Intel HD Graphics 620 (4 GB video memory reserved)
+Graphics 2:	NVIDIA MX 150 4G (Disabled)
+Monitor:	BOE NV156FHM-H61 FHD 1920x1080 (15.6 inches)
+Sound card:	ALC256 (layout-id:2/56)
+Network card:	Fenvi BCM94360NG [encurtador.com.br/gwCMT] - Natively supported
+OpenCore version	OpenCore-0.6.5-RELEASE
 
-## 目前已知问题与解决方法：
-
-* 如出现实装EFI后不能正常关机、时间错误的情况，可以通过安装Linux解决
-* 在安装第二、三阶段出现偶发性花屏属正常现象，待其自动重启即可
-* 使用本EFI配置不能启动低版本的macOS（会出现禁止符号），暂无解决办法
-* CPU原生支持，变频正常
-* 显示器亮度调节正常；
-* 使用博通（Boardcom）品牌的网卡的大佬麻烦禁用'itlwm.kext'和'AirportItlwm.kext',并在'boot-args'中添加'brcmfx-country=#a brcmfx-driver=2'
+Currently known problems and solutions:
+It is normal for occasional screens to appear in the second and third stages of the installation, wait for it to restart automatically
