@@ -15,7 +15,7 @@ This EFI configuration is based on @iXeor - [https://github.com/iXeor/Dell-Inspi
 * Monitor:	BOE NV156FHM-H61 FHD 1920x1080 (15.6 inches)
 * Sound card:	ALC256 (layout-id:2/56)
 * Network/BT card:	Fenvi BCM94360NG [https://abre.ai/b3eh]
-* OpenCore version	OpenCore-0.6.5-RELEASE
+* OpenCore version:	OpenCore-0.6.5-RELEASE
 
 [![big_sur_7572.png](https://i.postimg.cc/BnzbxXkZ/big-sur-7572.png)](https://postimg.cc/qN8prMpW)
 
