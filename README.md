@@ -28,8 +28,8 @@ This EFI configuration is based on @iXeor - [https://github.com/iXeor/Dell-Inspi
 * Keyboard with backlight and hotkeys
 * Touchpad with gestures
 * WIFI/BT works natively
-* AirPlay works natively - Tested with Samsung 4K TV
-* Handoff works natively - Tested with Ipad Mini 5
+* AirPlay works natively
+* Handoff works natively
 * Sleep/wake
 
 ## Currently known problems and solutions:
