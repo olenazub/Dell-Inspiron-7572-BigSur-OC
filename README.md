@@ -3,8 +3,6 @@
 # Note: This EFI file is applicable to run Big Sur version.
 This EFI configuration is based on [@iXeor - https://github.com/iXeor/Dell-Inspiron-7572-BigSur-OC]
 
->>> Click here to download the EFI configuration file <<<
-
 Computer Model: Notebook Dell Inspiron 7572
 
 BIOS: 1.5.3
