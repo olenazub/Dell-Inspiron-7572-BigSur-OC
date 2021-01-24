@@ -25,9 +25,19 @@ Monitor:	BOE NV156FHM-H61 FHD 1920x1080 (15.6 inches)
 
 Sound card:	ALC256 (layout-id:2/56)
 
-Network card:	Fenvi BCM94360NG [https://abre.ai/b3eh] - Natively supported
+Network/BT card:	Fenvi BCM94360NG [https://abre.ai/b3eh] - Natively supported
 
 OpenCore version	OpenCore-0.6.5-RELEASE
 
+Screen and audio mirroring works for Samsungs TV
+
+
 Currently known problems and solutions:
+
 It is normal for occasional screens to appear in the second and third stages of the installation, wait for it to restart automatically
+
+Sometimes when increasing and decreasing the volume the audio stops working
+
+DRM doesn't work, it was already expected
+
+Send files with Airdrop doesn't work either
