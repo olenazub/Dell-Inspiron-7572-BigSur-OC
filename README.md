@@ -1,5 +1,5 @@
 # OpenCore EFI configuration for Dell Inspiron 7572 notebook
-# Note: This EFI file is applicable to run Big Sur version.
+## Note: This EFI file is applicable to run Big Sur version.
 
 This EFI configuration is based on @iXeor - [https://github.com/iXeor/Dell-Inspiron-7572-BigSur-OC]
 
@@ -17,7 +17,9 @@ This EFI configuration is based on @iXeor - [https://github.com/iXeor/Dell-Inspi
 * Network/BT card:	Fenvi BCM94360NG [https://abre.ai/b3eh]
 * OpenCore version	OpenCore-0.6.5-RELEASE
 
-What works? 
+[![big_sur_7572.png](https://i.postimg.cc/BnzbxXkZ/big-sur-7572.png)](https://postimg.cc/qN8prMpW)
+
+## What works? 
 * Almost everything...
 * Hardware acceleration
 * External HDMI with audio
@@ -29,9 +31,12 @@ What works?
 * AirPlay works natively - Tested with Samsung 4K TV
 * Handoff works natively - Tested with Ipad Mini 5
 
-Currently known problems and solutions:
-* 
+## Currently known problems and solutions:
+* Battery drains fast
 * It is normal for occasional screens to appear in the second and third stages of the installation, wait for it to restart automatically
 * Sometimes when increasing and decreasing the volume the audio stops working
 * DRM doesn't work, it was already expected
 * Send files with Airdrop doesn't work either
+
+## Credits and links
+* [OpenCore Desktop Guide](https://dortania.github.io/OpenCore-Install-Guide/)
