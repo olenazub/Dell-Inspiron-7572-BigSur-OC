@@ -8,7 +8,7 @@ This EFI configuration is based on @iXeor - [https://github.com/iXeor/Dell-Inspi
 * OSs: MacOS Big Sur 11.1 / Windows 10 Professional
 * Processor: Intel Core i5-8250U @1.80GHz 4/8
 * RAM: 16 GB DDR4 2400MHz - XPG
-* Hard Disk 1:	120 GB NVME SSD - Patriot
+* Hard Disk 1:	128 GB NVME SSD - Patriot
 * Hard Disk 2:	360 GB SSD - Kingspeac
 * Graphics 1:	Intel HD Graphics 620 (4 GB video memory reserved)
 * Graphics 2:	NVIDIA MX 150 4G (Disabled)
