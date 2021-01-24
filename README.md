@@ -22,14 +22,15 @@ What works?
 * Hardware acceleration
 * External HDMI with audio
 * Internal audio/mic
-* ComboJack with audio/mic see here [https://github.com/lyngogogog/Dell-7472-7572-Hackintosh-EFI/tree/master/%E8%80%B3%E9%BA%A6%E6%94%AF%E6%8C%81%20ComboJack]
-* Keyboard with hotkeys
+* ComboJack with audio/mic see here [https://github.com/hackintosh-stuff/ComboJack]
+* Keyboard with backlight and hotkeys
 * Touchpad with gestures
 * WIFI/BT works natively
 * AirPlay works natively - Tested with Samsung 4K TV
 * Handoff works natively - Tested with Ipad Mini 5
 
 Currently known problems and solutions:
+* 
 * It is normal for occasional screens to appear in the second and third stages of the installation, wait for it to restart automatically
 * Sometimes when increasing and decreasing the volume the audio stops working
 * DRM doesn't work, it was already expected
