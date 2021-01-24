@@ -32,11 +32,11 @@ This EFI configuration is based on @iXeor - [https://github.com/iXeor/Dell-Inspi
 * Handoff works natively - Tested with Ipad Mini 5
 
 ## Currently known problems and solutions:
-* Battery drains fast
 * It is normal for occasional screens to appear in the second and third stages of the installation, wait for it to restart automatically
 * Sometimes when increasing and decreasing the volume the audio stops working
 * DRM doesn't work, it was already expected
 * Send files with Airdrop doesn't work either
+* Battery drains fast
 
 ## Credits and links
 * [OpenCore Desktop Guide](https://dortania.github.io/OpenCore-Install-Guide/)
