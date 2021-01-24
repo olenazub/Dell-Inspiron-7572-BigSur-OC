@@ -30,6 +30,7 @@ This EFI configuration is based on @iXeor - [https://github.com/iXeor/Dell-Inspi
 * WIFI/BT works natively
 * AirPlay works natively - Tested with Samsung 4K TV
 * Handoff works natively - Tested with Ipad Mini 5
+* Sleep/wake
 
 ## Currently known problems and solutions:
 * It is normal for occasional screens to appear in the second and third stages of the installation, wait for it to restart automatically
