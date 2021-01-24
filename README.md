@@ -25,7 +25,7 @@ Monitor:	BOE NV156FHM-H61 FHD 1920x1080 (15.6 inches)
 
 Sound card:	ALC256 (layout-id:2/56)
 
-Network card:	Fenvi BCM94360NG [encurtador.com.br/gwCMT] - Natively supported
+Network card:	Fenvi BCM94360NG [https://www.encurtador.com.br/url-encurtada.php] - Natively supported
 
 OpenCore version	OpenCore-0.6.5-RELEASE
 
