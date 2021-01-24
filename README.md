@@ -6,7 +6,7 @@ This EFI configuration is based on @iXeor - [https://github.com/iXeor/Dell-Inspi
 * Computer Model: Notebook Dell Inspiron 7572
 * BIOS: 1.5.3
 * OSs: MacOS Big Sur 11.1 / Windows 10 Professional
-* Processor: Intel Core i5-8250U @1.80GHz quad-core eight threads
+* Processor: Intel Core i5-8250U @1.80GHz 4/8
 * RAM: 16 GB DDR4 2400MHz - XPG
 * Hard Disk 1:	120 GB NVME SSD - Patriot
 * Hard Disk 2:	360 GB SSD - Kingspeac
