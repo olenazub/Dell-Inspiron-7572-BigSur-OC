@@ -41,3 +41,5 @@ This EFI configuration is based on @iXeor - [https://github.com/iXeor/Dell-Inspi
 
 ## Credits and links
 * [OpenCore Desktop Guide](https://dortania.github.io/OpenCore-Install-Guide/)
+* [ic005k](https://github.com/ic005k/DELL7472)
+* [iXeor](https://github.com/iXeor/Dell-Inspiron-7572-BigSur-OC)
