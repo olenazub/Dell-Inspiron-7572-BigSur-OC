@@ -1,6 +1,9 @@
 # OpenCore EFI configuration for Dell Inspiron 7572 
 ## Note: This EFI file is applicable to run Big Sur
 
+* If you are going to use this EFI, please change the SMBIOS data. 
+* I have no responsibility for any problems that may occur with your setup.
+
 This EFI configuration is based on @iXeor - [https://github.com/iXeor/Dell-Inspiron-7572-BigSur-OC]
 
 * Computer Model: Notebook Dell Inspiron 7572
