@@ -10,8 +10,8 @@ This EFI configuration is based on @iXeor - [https://github.com/iXeor/Dell-Inspi
 * RAM: 16 GB DDR4 2400MHz - XPG
 * Hard Disk 1:	128 GB NVME SSD - Patriot
 * Hard Disk 2:	360 GB SSD - Kingspeac
-* Graphics 1:	Intel HD Graphics 620 - 4GB
-* Graphics 2:	NVIDIA MX 150 4G (Disabled)
+* Graphics 1:	Intel HD Graphics 620
+* Graphics 2:	NVIDIA MX 150 4GB (Disabled)
 * Monitor:	BOE NV156FHM-H61 FHD 1920x1080 (15.6 inches)
 * Sound card:	ALC256 (layout-id:2/56)
 * Network/BT card:	Fenvi BCM94360NG [https://abre.ai/b3eh]
